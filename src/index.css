@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+nav{
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.Nav--logo{
+  max-width: 130px;
+}
+
+.Photo-Grid{
+  max-width: 650px;
+  width: 750px;
+  align-self: center;
+}
+
+.Hero-Header{
+  margin-bottom: 16px;
+  align-self: flex-start;
+}
+
+.Hero--text{
+  margin-top: 0;
+  align-self: flex-start;
+  text-align: left;
+  width: 340px;
+  
+    
+}
+
+section{
+  padding: 20px;
+}
+
+.Hero{
+  display: flex;
+  flex-direction: column;
+}
+
+.Card{
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.Card--image{
+
+    width: 100%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    height: 235px;
+}
+
+.Card--text{
+  display: flex;
+  align-items: center;
+}
+
+.Star{
+  height: 14px;
+}
+
+.gray{
+  color: #918E9B;
+}
+
+.Bold{
+  font-weight: bold;
+}
+
+.card-title {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-price{
+  text-align: left;
+  margin-top: auto;
+}
+.cards-list{
+  display:flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+.card--badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
