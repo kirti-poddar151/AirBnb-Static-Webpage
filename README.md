@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# AirBnb Clone
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Project Webpage
+![AirBnb Experiences](https://user-images.githubusercontent.com/80633197/202862888-e8117423-2486-4a77-a177-80ebd98c0d20.png)
+
+## Learnings
+* **React is Composable** : We have small pieces that we can put together to make something larger/greater than the individual pieces.
+* **React is Declarative** : It means I can tell the computer WHAT to do and expect it to handle the details. Imperative means I need
+to tell it HOW to do each step.
+* **Props** : Make a component more reusable.
+* **.map()** : Returns a new array. Whatever gets returned from the callback function provided is placed at the same index in the new array.
 
 ## Available Scripts
 
